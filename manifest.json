@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "BetterRosarioSite",
+    "version": "1.0",
+  
+    "description": "Melhorias para o site do rosario",
+
+    "content_scripts": [
+      {
+        "matches": ["*://educacional.dominicanas.org.br/Publica/Agenda_de_Estudo/Agenda2.aspx"],
+        "js": ["betterRosario.js"]
+      }
+    ]
+  
+  }
