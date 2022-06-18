@@ -8,7 +8,8 @@
     "content_scripts": [
       {
         "matches": ["*://educacional.dominicanas.org.br/Publica/Agenda_de_Estudo/Agenda2.aspx"],
-        "js": ["betterRosario.js"]
+        "js": ["betterRosario.js"],
+        "css": ["styles.css"]
       }
     ]
   
